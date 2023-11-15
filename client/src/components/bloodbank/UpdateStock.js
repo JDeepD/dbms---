@@ -40,8 +40,8 @@ const UpdateStock = () => {
         <tbody>
           {bloodTable.map((val) => {
             return (
-              <tr key={val.b_id}>
-                <td>{val.blood_group}</td>
+              <tr key={val.user_id}>
+                <td>{val.userBloodGroup}</td>
                 <td>{val.unit}</td>
                 <input
                   type="number"

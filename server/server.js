@@ -36,7 +36,7 @@ app.use(express.json());
 var db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "Password@123",
+  password: "12345",
   database: "bbms",
 
 });

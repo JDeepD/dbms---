@@ -36,9 +36,9 @@ const Dashboard = () => {
         <tbody>
           {bloodTable.length > 0 && bloodTable.map((val) => {
             return (
-              <tr key={val.b_id}>
-                <td>{val.blood_group}</td>
-                <td>{val.unit}</td>
+              <tr key={val.user_id}>
+                <td>{val.userFName}</td>
+                <td>{val.userBloodGroup}</td>
               </tr>
             );
           })}
